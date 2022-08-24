@@ -43,6 +43,7 @@ header {
 #home {
     height: 90vh;
     display: flex;
+    justify-content: center;
     padding: 2em 1em;
     gap: 3em;
     margin: 4em 0;
@@ -77,4 +78,18 @@ right: 3em;
     width: 400px;
     font-size: 25px;
 }
-    
+.home-img, .text{
+        flex: none;
+    } 
+
+div.home-img{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+
+}
+.home-img img{
+    margin: auto;
+ width: 75%;
+ border-radius: 2%;
+}   
