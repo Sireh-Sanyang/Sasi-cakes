@@ -40,5 +40,40 @@ header {
 #icon{
     width: 75px;
 }
+#home {
+    height: 90vh;
+    display: flex;
+    padding: 2em 1em;
+    gap: 3em;
+    margin: 4em 0;
+    border: 3px solid rgb(101, 64, 64);
 
+}
+#text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#text .title {
+    font-size: 7em;
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    
+}
+.title span:last-of-type {
+text-align: right;
+right: 3em;
+}
+
+
+#text p:first-of-type {
+    text-align: right;
+
+}
+#text p{
+    width: 400px;
+    font-size: 25px;
+}
     
