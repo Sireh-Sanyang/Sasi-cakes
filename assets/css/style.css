@@ -93,3 +93,37 @@ div.home-img{
  width: 75%;
  border-radius: 2%;
 }   
+footer{
+    text-align: center; 
+    background-color: #3a3a3a;
+    color: rgba(226,225,221,1);;
+  }
+  #details{
+    display: flex;
+    justify-content: center;
+    gap: 6em;
+    padding-top: 2em;
+  }
+  #details h3{
+    font-size: 20px;
+    padding: 1em;
+  }
+  #details p{
+    padding: 5px;
+    font-size: 1.2em;
+
+  }
+
+  .social-networks > li{
+      display: inline;
+  }
+  .social-networks i{
+      font-size: 160%;
+      margin: 20px;
+      padding: 5%;
+      color: rgba(226,225,221,1);
+     }
+
+.social-networks i:hover{
+    transform: scale(1.25) rotate(15deg);
+}
