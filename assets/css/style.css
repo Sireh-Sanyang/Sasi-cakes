@@ -4,5 +4,12 @@
     box-sizing: border-box;
 }
 
-
+body{
+    position: relative;
+    background: rgb(223,190,159);
+    background: linear-gradient(90deg, rgba(223,190,159,1) 0%, rgba(226,225,221,1) 14%, rgba(226,225,221,1) 27%, rgba(226,225,221,1) 58%, rgba(223,190,159,1) 79%, rgba(226,225,221,1) 100%);
+    padding: 0 1.5em;
+    letter-spacing: 4px;
+    color: #3a3a3a;
+}
     
