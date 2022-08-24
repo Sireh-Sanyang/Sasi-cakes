@@ -47,6 +47,7 @@ header {
     gap: 3em;
     margin: 4em 0;
     border: 3px solid rgb(101, 64, 64);
+    font-family: 'Lobster', cursive;
 
 }
 #text {
