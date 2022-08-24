@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body{
     position: relative;
     background: rgb(223,190,159);
@@ -49,49 +48,38 @@ header {
     margin: 4em 0;
     border: 3px solid rgb(101, 64, 64);
     font-family: 'Lobster', cursive;
-
 }
 #text {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-
 #text .title {
     font-size: 7em;
     display: flex;
     flex-direction: column;
-    text-transform: uppercase;
-    
+    text-transform: uppercase;  
 }
 .title span:last-of-type {
 text-align: right;
 right: 3em;
 }
-
-
 #text p:first-of-type {
     text-align: right;
-
 }
 #text p{
     width: 400px;
     font-size: 25px;
 }
-.home-img, .text{
-        flex: none;
-    } 
-
 div.home-img{
     width: 50%;
     display: flex;
     justify-content: center;
-
 }
 .home-img img{
     margin: auto;
- width: 75%;
- border-radius: 2%;
+    width: 75%;
+    border-radius: 2%;
 }   
 footer{
     text-align: center; 
@@ -111,9 +99,7 @@ footer{
   #details p{
     padding: 5px;
     font-size: 1.2em;
-
   }
-
   .social-networks > li{
       display: inline;
   }
@@ -123,7 +109,6 @@ footer{
       padding: 5%;
       color: rgba(226,225,221,1);
      }
-
 .social-networks i:hover{
     transform: scale(1.25) rotate(15deg);
 }
