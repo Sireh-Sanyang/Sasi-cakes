@@ -160,6 +160,9 @@ footer {
     font-size: 3em;
 }
 #about-text p{
-    font-size: 1.3em;
-    
+    font-size: 1.3em;   
 }
+.about img{
+   height: 350px;
+    border-radius: 2%;
+   }
