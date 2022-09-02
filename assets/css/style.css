@@ -26,7 +26,6 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 1em 2em;
-    border-bottom: 1px solid rgb(71, 55, 55);
     overflow: hidden;
 }
 
@@ -52,8 +51,8 @@ header {
     background-color: rgb(61, 52, 52);
 }
 
-#icon {
-    width: 75px;
+#icon img{
+    width: 85px;
 }
 
 #home {
@@ -285,4 +284,41 @@ footer {
         align-items: center;
         padding: 1em;
     }
+}
+@media screen and (max-width: 850px){
+.menu a{
+    font-size: 0.7em;
+    margin: 0;
+}
+.logo{
+    font-size: 10px;
+}
+#icon img{
+    width: 35px;
+}
+#home {
+    height: 100vh;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+
+#text .title {
+    font-size: 2.5em;
+    width: 200px;   
+}
+.title{
+    padding: 0.8em 0;
+}
+#text p{
+    width: 300px;
+}
+
+
+.social-networks i {
+    margin: 20px;
+    padding: 5px;
+   
+}
+.about{
+    height: fit-content;
+}
 }
