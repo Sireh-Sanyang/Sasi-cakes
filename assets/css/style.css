@@ -27,6 +27,7 @@ header {
     align-items: center;
     padding: 1em 2em;
     border-bottom: 1px solid rgb(71, 55, 55);
+    overflow: hidden;
 }
 
 .logo {
@@ -126,7 +127,6 @@ footer {
     justify-content: center;
     align-items: center;
     background-color: #3a3a3a;
-    color: rgba(226, 225, 221, 1);
     height: 100px;
     
 }
@@ -256,3 +256,33 @@ footer {
     text-transform: uppercase;
     padding: 2em;
  }   
+@media screen and (max-width: 1200px){
+    .menu a {
+        font-size: 1em;
+        margin: 0 5px;
+    }
+    .logo{
+        font-size: 1em;
+    }
+    #icon img{
+       width: 75px; 
+    }
+    #home {
+        height: 160vh;
+        padding: 0 2em;
+        width: 85%; 
+        margin: 0 3em;
+      }
+      #details {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        padding: 3.5em;
+        object-position: center;
+    }
+    .about{
+        height: 150vh;
+        flex-direction: column;
+        align-items: center;
+        padding: 1em;
+    }
+}
