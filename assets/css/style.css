@@ -99,6 +99,8 @@ header {
   object-position: center;
   border-radius: 4%;
 }
+
+/* the information in the lower part of the home page */
 #details {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -152,6 +154,7 @@ footer {
   font-family: "Lobster", cursive;
 }
 
+/* the upper section in the about page */
 .about img {
   width: 500px;
   border-radius: 3em;
@@ -180,6 +183,8 @@ footer {
   padding: 2em 4em 2em 4em;
   gap: 3em;
 }
+
+/* images in the lower section of the about page */
 .about-img img {
   width: 100%;
   aspect-ratio: 1/1;
@@ -200,6 +205,8 @@ p {
 .about-img h2 {
   font-size: 2em;
 }
+
+/* images in the gallery.html file */
 #photos {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -249,6 +256,7 @@ p {
   opacity: 1;
 }
 
+/* the information in the the gallery.html file */
 #info {
   text-align: center;
   text-transform: uppercase;
@@ -291,6 +299,7 @@ p {
     overflow: hidden;
   }
 }
+
 @media screen and (max-width: 600px) {
   .menu a {
     font-size: 0.7em;
