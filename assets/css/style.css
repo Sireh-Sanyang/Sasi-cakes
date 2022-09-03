@@ -266,7 +266,7 @@ p {
     width: 75px;
   }
   #home {
-    height: 160vh;
+    height: fit-content;
     padding: 0 2em;
     width: 85%;
     margin: 0 3em;
