@@ -285,7 +285,7 @@ footer {
         padding: 1em;
     }
 }
-@media screen and (max-width: 850px){
+@media screen and (max-width: 600px){
 .menu a{
     font-size: 0.7em;
     margin: 0;
@@ -297,7 +297,7 @@ footer {
     width: 35px;
 }
 #home {
-    height: 100vh;
+    height: fit-content;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   }
 
