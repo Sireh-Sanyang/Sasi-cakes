@@ -267,9 +267,14 @@ p {
   }
   #home {
     height: fit-content;
-    padding: 0 2em;
-    width: 85%;
-    margin: 0 3em;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    padding:2em;
+    width: 95%;
+    font-size: 0.6em;
+  }
+  #text p {
+    width: 250px;
+    font-size: 2em;
   }
   #details {
     display: grid;
