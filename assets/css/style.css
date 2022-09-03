@@ -58,7 +58,7 @@ header {
 }
 
 #home {
-  height: 110vh;
+  height: 105vh;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
   font-family: "Lobster", cursive;
