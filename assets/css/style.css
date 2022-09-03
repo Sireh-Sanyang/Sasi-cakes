@@ -257,7 +257,7 @@ p {
 @media screen and (max-width: 1300px) {
   .menu a {
     font-size: 1.5em;
-    margin: 0 2em;
+    margin: 0 5px;
   }
   .logo {
     font-size: 1em;
