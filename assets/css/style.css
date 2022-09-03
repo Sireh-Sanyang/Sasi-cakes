@@ -146,13 +146,12 @@ footer {
 }
 .about {
   width: 100%;
-  height: fit-content;
+  height: 600px;
   display: flex;
   align-items: center;
   padding: 10em 6em 10em;
   gap: 5em;
   font-family: "Lobster", cursive;
-
 }
 
 /* the upper section in the about page */
@@ -182,8 +181,8 @@ footer {
 .about-bottom {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  padding: 2em 4em 2em 4em;
   gap: 3em;
+  overflow: hidden;
 }
 
 /* images in the lower section of the about page */
