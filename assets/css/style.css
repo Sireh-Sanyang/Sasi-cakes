@@ -64,6 +64,7 @@ header {
   font-family: "Lobster", cursive;
   padding: 2em 3em 0 1em;
   border: 3px solid black;
+  gap: 3em;
 }
 
 #text {
@@ -175,7 +176,7 @@ footer {
 #about-lower-section h1 {
   font-size: 3em;
   text-align: center;
-  padding-bottom: 2em;
+  padding-bottom: 0.5em;
 }
 
 .about-bottom {
