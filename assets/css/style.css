@@ -375,4 +375,8 @@ p {
           margin: 8px;
           padding: 0;
         }
+        #photos {
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        }
 }
