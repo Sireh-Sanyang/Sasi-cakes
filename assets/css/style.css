@@ -345,9 +345,11 @@ p {
     body{
         letter-spacing: normal;
     }
+  
     .menu a {
         font-size: 0.7em;
         margin: 0;
+
       }
       .logo {
         font-size: 8px;
@@ -357,16 +359,16 @@ p {
       }
       #home {
         height: fit-content;
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
         font-size: 0.7em;
       }
       #text p {
-        width: 200px;
+        width: 190px;
         font-size: 2.2em;
       }
       #details {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-        padding: 2em;
+        grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+        padding: 2em 0 0 0;
         }
 }
