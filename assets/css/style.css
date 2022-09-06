@@ -371,4 +371,8 @@ p {
         grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
         padding: 2em 0 0 0;
         }
+        .social-networks i {
+          margin: 8px;
+          padding: 0;
+        }
 }
