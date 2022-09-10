@@ -48,8 +48,7 @@ header {
 }
 
 .active {
-  color: rgb(237, 229, 229);
-  background-color: rgb(61, 52, 52);
+  border-bottom: 1px solid black;
 }
 
 .menu a:hover {
