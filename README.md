@@ -1,108 +1,82 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Sasi Cakes
 
-Welcome Sireh-Sanyang,
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Sasi cakes is a cake shop located in The Gambia, using the finest and simple ingredients to bake cakes, We offer all types of cakes. The website provides its users with valueable information about the cake shop such as its location, the type of cakes we offer, opening hours, background story of the shop, a gallery with sample of cakes avaible in the shop and a form in our contact us page for users to fill if they want to contact us.
+![Responsive image](./assets/images/amiresponsive.png)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
 
-## Gitpod Reminders
+## Existing Features
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+### Navigation Bar
 
-`python3 -m http.server`
+ In the navigation bar the user can find all four links to navigate through the website, Home page, About Us, Cakes and Contact Us page, and is identical in each page to allow easy navigation, It also contain the logo and a cake icon in the right.
+![Nav bar](./assets/images/nav-bar.png)
 
-A blue button should appear to click: _Make Public_,
+### Home page
 
-Another blue button should appear to click: _Open Browser_.
+The landing page includes an image of a slice chocolate cake and some texts to attract the user's attention.
+![Home image](./assets/images/landing-page.png)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### The Information section
 
-A blue button should appear to click: _Make Public_,
+This section is found at the bottom of the home page. It contains all the information about the locations and opening times.
+![The Information Section at the bottom of the home page](./assets/images/info.png)
 
-Another blue button should appear to click: _Open Browser_.
+### The Footer
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+It contains links to our social media accouts, for user to contact us and review the cake shop.
+![The image of the Footer](./assets/images/footer.png)
 
-To log into the Heroku toolbelt CLI:
+### About Us
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+In this page there are two sections;
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+- ##### Upper part of the About Us page
+This serction contains the story of how the cake shop started, The owners, and what motivated them, It also contain an image of some students in a bakery school.
+![The upper part of the About Us page](./assets/images/upper-about.png)
 
-------
+- ##### Lower part of the About Us page
+This section contains some of our unique cakes that we offer, and the rigth occasion for it.
+![The lower part of the About Us page](./assets/images/lower-about.png)
 
-## Release History
+### Cakes/Gallery
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+The gallery provides some images of cakes and the types of cakes to expect in our cake shop. It shows the name of the cake, when the user hover on the image.
+![Gallery page](./assets/images/gallery.png)
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+### Contact Us
+Here the user can send us a message by filling the form
+![The contact us page](./assets/images/contact-us.png)
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+### Features left To implement
+ * To create an online ordering application.
+ * Be able to receive messages from users.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+ ### Testing
+ - I deployed my website as soon as I started the project, so I corrected the errors while coding. By the time I was done with the project, there were only few errors.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+ - I used the W3C Validator Services to check for errors and the only error was;
+ * Sections without h2-h6. The recomendation was to substitute the sections by divs.
+ * There is </p> without an <p> opening tag
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+ But there are no more errors now.
+ I tested all the external links and they work perfectly fine, all the external links open in a new tab.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+ ### Deployment
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings tab 
+  - From the source section drop-down menu, select the Master Branch
+  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+The live link can be found here - https://sireh-sanyang.github.io/Sasi-cakes/
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+### Credits
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+https://youtu.be/tF3RE5CGt9U
+I used the link source above to help me the gallery effects.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+All the images used in the website are from pexels and unsplash.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
