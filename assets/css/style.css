@@ -387,7 +387,7 @@ button {
   }
 }
 
-/* media query 400px */
+/* media query 420px */
 @media screen and (max-width: 420px) {
   body {
     letter-spacing: normal;
@@ -420,6 +420,12 @@ button {
   .social-networks i {
     margin: 8px;
     padding: 0;
+  }
+  .about-bottom {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 3em;
+    overflow: hidden;
   }
   #photos {
     display: grid;
