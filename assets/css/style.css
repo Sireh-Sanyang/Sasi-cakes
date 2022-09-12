@@ -30,7 +30,8 @@ header {
   padding: 1em 2em;
   overflow: hidden;
 }
-
+ 
+/* logo and nav links */
 .logo {
   font-size: 1.5em;
 }
@@ -38,7 +39,6 @@ header {
   text-decoration: none;
   color: inherit;
 }
-
 .menu a {
   text-decoration: none;
   color: inherit;
@@ -46,20 +46,18 @@ header {
   font-family: sans-serif;
   margin: 0 2em;
 }
-
 .active {
   border-bottom: 1px solid black;
 }
-
 .menu a:hover {
   color: rgb(237, 229, 229);
   background-color: rgb(61, 52, 52);
 }
-
 #icon img {
   width: 85px;
 }
 
+/* Home page */
 #home {
   height: 105vh;
   display: grid;
@@ -69,20 +67,17 @@ header {
   border: 3px solid black;
   gap: 3em;
 }
-
 #text {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-
 #text .title {
   font-size: 7em;
   display: flex;
   flex-direction: column;
   text-transform: uppercase;
 }
-
 .title span:last-of-type {
   text-align: right;
   right: 3em;
@@ -91,7 +86,6 @@ header {
 #text p:first-of-type {
   text-align: right;
 }
-
 #text p {
   width: 400px;
   font-size: 25px;
@@ -104,7 +98,7 @@ header {
   border-radius: 4%;
 }
 
-/* the information in the lower part of the home page */
+/* lower part of the home page */
 #details {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -121,12 +115,13 @@ header {
   padding: 1em;
   text-align: center;
 }
-
 #details p {
   padding: 5px;
   font-size: 1.2em;
   text-align: center;
 }
+
+/* footer */
 footer {
   display: flex;
   justify-content: center;
@@ -149,6 +144,8 @@ footer {
 .social-networks i:hover {
   transform: scale(1.25) rotate(15deg);
 }
+
+/* about us section */
 .about {
   width: 100%;
   height: 600px;
@@ -172,6 +169,7 @@ footer {
   font-size: 1.3em;
 }
 
+/* images in the lower section of the about page */
 #about-lower-section {
   padding: 5em 0 3em 0;
   align-items: center;
@@ -189,8 +187,6 @@ footer {
   gap: 3em;
   overflow: hidden;
 }
-
-/* images in the lower section of the about page */
 .about-img img {
   width: 100%;
   aspect-ratio: 1/1;
@@ -212,7 +208,7 @@ p {
   font-size: 2em;
 }
 
-/* images in the gallery.html file */
+/* images in the gallery file */
 #photos {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -268,6 +264,8 @@ p {
   text-transform: uppercase;
   padding: 2em;
 }
+
+/* form */
 .form-section {
   width: 100%;
   height: 100vh;
@@ -314,6 +312,8 @@ button {
   margin: 20px auto 0;
   border-radius: 30px;
 }
+
+/* media query 1300px */
 @media screen and (max-width: 1300px) {
   .menu a {
     font-size: 1.5em;
@@ -351,6 +351,7 @@ button {
   }
 }
 
+/* media query 600px */
 @media screen and (max-width: 600px) {
   .menu a {
     font-size: 0.7em;
@@ -385,6 +386,8 @@ button {
     height: fit-content;
   }
 }
+
+/* media query 400px */
 @media screen and (max-width: 420px) {
   body {
     letter-spacing: normal;
