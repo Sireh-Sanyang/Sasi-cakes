@@ -110,8 +110,7 @@ The live link can be found here - https://sireh-sanyang.github.io/Sasi-cakes/
 
 ## Credits
 
-https://youtu.be/tF3RE5CGt9U
-* I used the link source above to help me the gallery effects.
+* [Web Dev Simplified](https://courses.webdevsimplified.com/)I used the link source to help me the gallery effects and form.
 
 * To complete this project I used Code Institute student template: [gitpod full template](https://github.com/Code-Institute-Org/gitpod-full-template)
 
