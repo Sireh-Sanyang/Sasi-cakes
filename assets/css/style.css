@@ -315,6 +315,10 @@ button {
 
 /* media query 1300px */
 @media screen and (max-width: 1300px) {
+  header {
+    padding: 2em 0;
+  
+  }
   .menu a {
     font-size: 1.5em;
     margin: 0 5px;
