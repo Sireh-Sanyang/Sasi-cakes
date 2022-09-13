@@ -96,6 +96,7 @@ I noticed that this tests scores vary from time to time.
 ### Responsive Testing
 
 * Site was tested across multiple screen sizes.
+* The only problem is with nav bar, but that's sorted out.
 
  ## Deployment
 
